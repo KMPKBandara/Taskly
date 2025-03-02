@@ -12,8 +12,10 @@ Taskly is a simple and efficient task management application built with React an
 
 ## Screenshots
 
-![Taskly Screenshot 1](./screenshots/taskly-1.png)
-![Taskly Screenshot 2](./screenshots/taskly-2.png)
+![image](https://github.com/user-attachments/assets/af32ba37-b335-4f58-9ed7-502b33ef8138)
+![image](https://github.com/user-attachments/assets/b3d78060-80f4-4b5a-890e-a15a9f3974a8)
+![image](https://github.com/user-attachments/assets/233fdc30-8c66-4566-af3f-9bbc51c98dcc)
+
 
 ## Installation
 
@@ -64,4 +66,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Contact
 
-For any queries or suggestions, reach out to [your email] or visit [your GitHub profile].
+For any queries or suggestions, reach out to pramudithakavinda01@gmail.com
