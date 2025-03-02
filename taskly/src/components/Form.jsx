@@ -2,13 +2,18 @@ import { useState } from "react";
 import styles from "./form.module.css";
 
 export default function Form({ setTodos }) {
-  const [todo, setTodo] = useState("");
+  const [todo, setTodo] = useState({ name: "", done: false });
 
   function handleSubmit(e) {
     e.preventDefault();
-    if (!todo.trim()) return;
+
+    // Check if todo.name is a string and not empty after trimming
+    if (!todo.name.trim()) return;
+
     setTodos((prevTodos) => [...prevTodos, todo]);
-    setTodo("");
+
+    // Reset input field after submission
+    setTodo({ name: "", done: false });
   }
 
   return (
@@ -16,8 +21,10 @@ export default function Form({ setTodos }) {
       <div className={styles.inputContainer}>
         <input
           className={styles.modernInput}
-          onChange={(e) => setTodo(e.target.value)}
-          value={todo}
+          onChange={(e) =>
+            setTodo({ ...todo, name: e.target.value, done: false })
+          } // Maintain object structure
+          value={todo.name}
           type="text"
           placeholder="Add a new task"
         />
