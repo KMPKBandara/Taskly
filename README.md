@@ -66,4 +66,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Contact
 
-For any queries or suggestions, reach out to pramudithakavinda01@gmail.com
+For any queries or suggestions, reach out to kmpkbandara@std.appsc.sab.ac.lk
